@@ -39,11 +39,13 @@
 
 /***************************** Include Files *********************************/
 
+#include "PmodGPIO.h"
+#include "oled.h"
+#include "sleep.h"
 #include "xgpio.h"
 #include "xil_printf.h"
 #include "xparameters.h"
-#include "PmodGPIO.h"
-
+#include <stdint.h>
 
 /************************** Constant Definitions *****************************/
 
@@ -109,7 +111,9 @@
 
 XGpio Gpio;         /* The Instance of the GPIO Driver */
 XGpio Gpio_segment; // segment
-PmodGPIO JaDevice; // JA pmod
+XGpio Gpio_Ja;      // segment
+PmodGPIO JaDevice;  // JA pmod
+
 /*****************************************************************************/
 /**
  *
@@ -123,6 +127,7 @@ PmodGPIO JaDevice; // JA pmod
  * @note		This function will not return if the test is running.
  *
  ******************************************************************************/
+
 int main(void) {
   int Status;
   volatile int Delay;
@@ -139,7 +144,12 @@ int main(void) {
   //******************JA********************
   // pin 1 for  IIC SCL, pin 2 for IIC SDA
   GPIO_begin(&JaDevice, XPAR_PMODGPIO_0_BASEADDR, 0x00);
-  GPIO_setPins(&JaDevice,0x03);
+  OLED_Init();
+  OLED_ColorTurn(0);
+  OLED_DisplayTurn(0);
+  OLED_Refresh();
+  OLED_Clear();
+
   //******************JA********************
 
   /* Initialize the GPIO driver */
@@ -157,12 +167,16 @@ int main(void) {
     /* Set the LED to High */
     XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
     /* Wait a small amount of time so the LED is visible */
-    for (Delay = 0; Delay < LED_DELAY; Delay++)
-      ;
+    sleep(1);
     /* Clear the LED bit */
     XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
     /* Wait a small amount of time so the LED is visible */
-    for (Delay = 0; Delay < LED_DELAY; Delay++)
-      ;
+    sleep(1);
+
+    OLED_ShowString(0, 0, "P:0123456789ABCDEF", 12);
+    OLED_ShowString(0, 15, "FEDCBA9876543210", 12);
+    OLED_ShowString(0, 30, "C:6C842BCE41C7E351", 12);
+    OLED_ShowString(0, 45, "4068A3FB8BB42936", 12);
+    OLED_Refresh();
   }
 }

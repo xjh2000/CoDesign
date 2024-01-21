@@ -9,7 +9,7 @@
 #Ignore logs folder and log files
 /logs
 .log
-
+**/.cache/**
 #Ignore lock files
 .lock
 
