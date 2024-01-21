@@ -131,6 +131,7 @@ int main(void) {
   XGpio_SetDataDirection(&Gpio_segment, 1, ~SEGMENT);
   // Set the SEGMENT to High for close segment
   XGpio_DiscreteWrite(&Gpio_segment, 1, SEGMENT);
+  xil_printf("Close 7 segment display\r\n");
   //******************segment********************
   
   /* Initialize the GPIO driver */
@@ -150,6 +151,7 @@ int main(void) {
   /* Loop forever blinking the LED */
 
   while (1) {
+      
     /* Set the LED to High */
     XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
 
