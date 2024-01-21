@@ -42,6 +42,8 @@
 #include "xgpio.h"
 #include "xil_printf.h"
 #include "xparameters.h"
+#include "PmodGPIO.h"
+
 
 /************************** Constant Definitions *****************************/
 
@@ -107,7 +109,7 @@
 
 XGpio Gpio;         /* The Instance of the GPIO Driver */
 XGpio Gpio_segment; // segment
-
+PmodGPIO JaDevice; // JA pmod
 /*****************************************************************************/
 /**
  *
@@ -133,13 +135,15 @@ int main(void) {
   XGpio_DiscreteWrite(&Gpio_segment, 1, SEGMENT);
   xil_printf("Close 7 segment display\r\n");
   //******************segment********************
-  
+
+  //******************JA********************
+  // pin 1 for  IIC SCL, pin 2 for IIC SDA
+  GPIO_begin(&JaDevice, XPAR_PMODGPIO_0_BASEADDR, 0x00);
+  GPIO_setPins(&JaDevice,0x03);
+  //******************JA********************
+
   /* Initialize the GPIO driver */
-#ifndef SDT
-  Status = XGpio_Initialize(&Gpio, GPIO_EXAMPLE_DEVICE_ID);
-#else
   Status = XGpio_Initialize(&Gpio, XGPIO_AXI_BASEADDRESS);
-#endif
   if (Status != XST_SUCCESS) {
     xil_printf("Gpio Initialization Failed\r\n");
     return XST_FAILURE;
@@ -147,22 +151,16 @@ int main(void) {
 
   /* Set the direction for all signals as inputs except the LED output */
   XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
-
   /* Loop forever blinking the LED */
 
   while (1) {
-      
     /* Set the LED to High */
     XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
-
     /* Wait a small amount of time so the LED is visible */
     for (Delay = 0; Delay < LED_DELAY; Delay++)
       ;
-
     /* Clear the LED bit */
     XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
-    // XGpio_DiscreteClear(&Gpio_segment, 1, SEGMENT);
-
     /* Wait a small amount of time so the LED is visible */
     for (Delay = 0; Delay < LED_DELAY; Delay++)
       ;
