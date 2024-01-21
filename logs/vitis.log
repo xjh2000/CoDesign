@@ -1,0 +1,140 @@
+14:34:49 INFO  : updated workspace path: C:\Users\xjh\WorkSpace\CoDesign
+14:34:49 INFO  : created .gitignore file for the project C:\Users\xjh\WorkSpace\CoDesign
+14:34:49 INFO  : updated workspace path: C:\Users\xjh\WorkSpace\CoDesign
+14:34:49 INFO  : Platform  platform creation started.
+14:34:49 INFO  : Found no platform with name 'design_1_wrapper' in install repositories
+14:34:49 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && xsct.bat C:\Xilinx\Vitis\2023.2\vitisng-server\scripts\platformutil.tcl C:\Users\xjh\WorkSpace\CoDesign\hardware\design_1_wrapper.xsa C:\Users\xjh\WorkSpace\CoDesign\platform\hw\sdt && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:34:50 INFO  : Successfully created repository data at C:\Users\xjh\AppData\Local\Temp\rigel_lopper_xjh4695631426171801971
+14:34:50 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\xjh\AppData\Local\Temp\rigel_lopper_xjh10016027761363028279 -r C:\Users\xjh\AppData\Local\Temp\rigel_lopper_xjh4695631426171801971\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:34:50 INFO  : Embedded Template List generated successfully
+14:34:50 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\repo.py -st   C:\Xilinx\Vitis\2023.2\data\embeddedsw && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:34:51 INFO  : Successfully created repository data at C:\Users\xjh\WorkSpace\CoDesign
+14:34:51 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\xjh\AppData\Local\Temp\rigel_lopper_xjh3102573494609495646 -r C:\Users\xjh\WorkSpace\CoDesign\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:34:51 INFO  : Embedded Template List generated successfully
+14:34:51 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\xjh\AppData\Local\Temp\rigel_lopper_xjh17379734802109640110 -r C:\Users\xjh\WorkSpace\CoDesign\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:34:51 INFO  : Embedded Template List generated successfully
+14:34:53 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (C:/Xilinx/Vitis/2023.2/data/embeddedsw) loading 1 seconds
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'C_CACHE_BYTE_SIZE' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'C_ICACHE_BASEADDR' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'C_ICACHE_HIGHADDR' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'C_DCACHE_BYTE_SIZE' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'C_DCACHE_BASEADDR' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'C_DCACHE_HIGHADDR' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'C_ICACHE_LINE_LEN' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'C_DCACHE_LINE_LEN' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'CONFIG.EDK_SPECIAL' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'CONFIG.EDK_SPECIAL' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'CONFIG.EDK_SPECIAL' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'CONFIG.EDK_SPECIAL' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'C_NUM_INTR_INPUTS' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'C_KIND_OF_INTR' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : WARNING: [Common 17-673] Cannot get value of property 'CONFIG.C_S_AXI_CTRL_BASEADDR' because this property is not valid in conjunction with other property setting on this object.
+14:34:53 INFO  : SDT generated successfully
+14:34:53 INFO  : Lopper command for cpu List generation: lopper -O C:\Users\xjh\WorkSpace\CoDesign\.rigel_lopper -f -i C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpulist.dts C:\Users\xjh\WorkSpace\CoDesign\platform\hw\sdt\system-top.dts
+14:34:53 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper -O C:\Users\xjh\WorkSpace\CoDesign\.rigel_lopper -f -i C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Lib\site-packages\lopper\lops\lop-cpulist.dts C:\Users\xjh\WorkSpace\CoDesign\platform\hw\sdt\system-top.dts && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:34:54 INFO  : microblaze_0
+14:34:54 INFO  : CPU List generated successfully
+14:34:54 INFO  : SDT generated successfully.
+14:34:54 INFO  : created .gitignore file for the project C:\Users\xjh\WorkSpace\CoDesign\platform
+14:34:54 INFO  : lopper command to generate BSP :python C:\Xilinx\Vitis\2023.2\data\embeddedsw/scripts/pyesw//create_bsp.py -w C:\Users\xjh\WorkSpace\CoDesign\platform\microblaze_0\standalone_microblaze_0\bsp -p microblaze_0 -o standalone -s C:\Users\xjh\WorkSpace\CoDesign\platform\hw\sdt\system-top.dts -t empty_application -r C:\Users\xjh\WorkSpace\CoDesign\.repo.yaml
+14:34:54 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\create_bsp.py -w C:\Users\xjh\WorkSpace\CoDesign\platform\microblaze_0\standalone_microblaze_0\bsp -p microblaze_0 -o standalone -s C:\Users\xjh\WorkSpace\CoDesign\platform\hw\sdt\system-top.dts -t empty_application -r C:\Users\xjh\WorkSpace\CoDesign\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:35:01 INFO  : -- The C compiler identification is GNU 12.2.0
+14:35:01 INFO  : -- The CXX compiler identification is GNU 12.2.0
+14:35:01 INFO  : -- Detecting C compiler ABI info
+14:35:01 INFO  : -- Detecting C compiler ABI info - done
+14:35:01 INFO  : -- Check for working C compiler: C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/bin/mb-gcc.exe - skipped
+14:35:01 INFO  : -- Detecting C compile features
+14:35:01 INFO  : -- Detecting C compile features - done
+14:35:01 INFO  : -- Detecting CXX compiler ABI info
+14:35:01 INFO  : -- Detecting CXX compiler ABI info - done
+14:35:01 INFO  : -- Check for working CXX compiler: C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/bin/mb-g++.exe - skipped
+14:35:01 INFO  : -- Detecting CXX compile features
+14:35:01 INFO  : -- Detecting CXX compile features - done
+14:35:01 INFO  : -- Configuring done
+14:35:01 INFO  : -- Generating done
+14:35:01 INFO  : -- Build files have been written to: C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp
+14:35:01 INFO  : Successfully created Domain at C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp
+14:35:01 INFO  : Successfully Generated Domain C:\Users\xjh\WorkSpace\CoDesign\platform\microblaze_0\standalone_microblaze_0\bsp
+14:35:01 INFO  : Domain standalone_microblaze_0 added successfully.
+14:35:01 INFO  : Platform creation finished successfully.
+14:35:01 INFO  : Platform Quick Build initiated.
+14:35:01 INFO  : Generating Export directory
+14:35:01 INFO  : Generated platform metadata for creating application(s) based on platform platform.
+14:35:05 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper -O  . C:\Users\xjh\WorkSpace\CoDesign\platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx microblaze_0 C:\Users\xjh\WorkSpace\CoDesign\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:35:05 INFO  : Supported Library List generated.
+14:35:11 INFO  : Updating Examples in Driver C:\Users\xjh\WorkSpace\CoDesign\platform\microblaze_0\standalone_microblaze_0\bsp
+14:35:11 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\load_example.py -d C:\Users\xjh\WorkSpace\CoDesign\platform\microblaze_0\standalone_microblaze_0\bsp && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:35:12 INFO  : -- The C compiler identification is GNU 12.2.0
+14:35:12 INFO  : -- The CXX compiler identification is GNU 12.2.0
+14:35:12 INFO  : -- Detecting C compiler ABI info
+14:35:12 INFO  : -- Detecting C compiler ABI info - done
+14:35:12 INFO  : -- Check for working C compiler: C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/bin/mb-gcc.exe - skipped
+14:35:12 INFO  : -- Detecting C compile features
+14:35:12 INFO  : -- Detecting C compile features - done
+14:35:12 INFO  : -- Detecting CXX compiler ABI info
+14:35:12 INFO  : -- Detecting CXX compiler ABI info - done
+14:35:12 INFO  : -- Check for working CXX compiler: C:/Xilinx/Vitis/2023.2/gnu/microblaze/nt/bin/mb-g++.exe - skipped
+14:35:12 INFO  : -- Detecting CXX compile features
+14:35:12 INFO  : -- Detecting CXX compile features - done
+14:35:12 INFO  : -- Configuring done
+14:35:12 INFO  : -- Generating done
+14:35:12 INFO  : -- Build files have been written to: C:/Users/xjh/WorkSpace/CoDesign/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata
+14:35:12 INFO  : Updated Examples in Driver
+14:37:18 INFO  : lopper command to import example :python C:\Xilinx\Vitis\2023.2\data\embeddedsw/scripts/pyesw//create_example.py -d C:\Users\xjh\WorkSpace\CoDesign\platform\export\platform\sw\standalone_microblaze_0 -e xgpio_example.c -n axi_gpio_0 -w C:\Users\xjh\WorkSpace\CoDesign\xgpio_example -r C:\Users\xjh\WorkSpace\CoDesign\.repo.yaml
+14:37:18 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\create_example.py -d C:\Users\xjh\WorkSpace\CoDesign\platform\export\platform\sw\standalone_microblaze_0 -e xgpio_example.c -n axi_gpio_0 -w C:\Users\xjh\WorkSpace\CoDesign\xgpio_example -r C:\Users\xjh\WorkSpace\CoDesign\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:37:20 INFO  : Successfully Created Application sources at C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/src
+14:37:20 INFO  : Successfully imported example xgpio_example.c on C:\Users\xjh\WorkSpace\CoDesign\xgpio_example
+14:37:20 INFO  : created .gitignore file for the project C:\Users\xjh\WorkSpace\CoDesign\xgpio_example
+14:37:20 INFO  : The hardware specification used by project 'C:\Users\xjh\WorkSpace\CoDesign\xgpio_example' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+14:37:20 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\xjh\WorkSpace\CoDesign\xgpio_example\_ide\bitstream' in project 'C:\Users\xjh\WorkSpace\CoDesign\xgpio_example'.
+14:37:20 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\xjh\WorkSpace\CoDesign\xgpio_example\_ide\psinit' in project 'C:\Users\xjh\WorkSpace\CoDesign\xgpio_example'.
+14:37:39 INFO  : BSP build will be initiated for Domain standalone_microblaze_0
+14:37:39 INFO  : Generating BSP for the domain C:\Users\xjh\WorkSpace\CoDesign\platform\microblaze_0\standalone_microblaze_0\bsp
+14:37:39 INFO  : lopper command to build BSP :python C:\Xilinx\Vitis\2023.2\data\embeddedsw/scripts/pyesw//build_bsp.py -d C:\Users\xjh\WorkSpace\CoDesign\platform\microblaze_0\standalone_microblaze_0\bsp
+14:37:39 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\build_bsp.py -d C:\Users\xjh\WorkSpace\CoDesign\platform\microblaze_0\standalone_microblaze_0\bsp && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:37:42 INFO  : Domain build successfully
+14:37:42 INFO  : Generating Export directory
+14:37:42 INFO  : Platform Build Finished successfully.
+14:37:42 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\xjh\WorkSpace\CoDesign\xgpio_example\src -b c:\Users\xjh\WorkSpace\CoDesign\xgpio_example\build && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:38:33 INFO  : XSDB server has started successfully from frontend.
+14:38:33 INFO  : It has taken  1secs.
+14:38:34 INFO  : Connection to XSDB Server established.
+14:38:34 INFO  : It has taken  1secs.
+14:38:35 INFO  : Done
+14:41:54 INFO  : connect -url tcp:127.0.0.1:3121
+14:41:54 INFO  : bpremove -all
+14:41:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B621B5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B621B5A-13631093-0"}' command is executed.
+14:41:56 INFO  : Device configured successfully with "C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/_ide/bitstream/design_1_wrapper.bit"
+14:41:57 INFO  : targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+14:41:57 INFO  : loadhw -hw C:/Users/xjh/WorkSpace/CoDesign/platform/export/platform/hw/design_1_wrapper.xsa  -regs
+14:41:57 INFO  : configparams mdm-detect-bscan-mask 2
+14:41:57 INFO  : targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+14:41:57 INFO  : rst -system
+14:42:00 INFO  : after 3000
+14:42:00 INFO  : targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+14:42:00 INFO  : rst -processor
+14:42:00 INFO  : dow C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/build/xgpio_example.elf
+14:42:00 INFO  : con
+14:42:01 INFO  : Testing the connection for 127.0.0.1
+14:56:26 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\build_app.py -s c:\Users\xjh\WorkSpace\CoDesign\xgpio_example\src -b c:\Users\xjh\WorkSpace\CoDesign\xgpio_example\build && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+14:56:29 INFO  : connect -url tcp:127.0.0.1:3121
+14:56:29 INFO  : bpremove -all
+14:56:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B621B5A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B621B5A-13631093-0"}' command is executed.
+14:56:31 INFO  : Device configured successfully with "C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/_ide/bitstream/design_1_wrapper.bit"
+14:56:31 INFO  : targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+14:56:31 INFO  : loadhw -hw C:/Users/xjh/WorkSpace/CoDesign/platform/export/platform/hw/design_1_wrapper.xsa  -regs
+14:56:31 INFO  : configparams mdm-detect-bscan-mask 2
+14:56:31 INFO  : targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+14:56:31 INFO  : rst -system
+14:56:34 INFO  : after 3000
+14:56:34 INFO  : targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+14:56:34 INFO  : rst -processor
+14:56:34 INFO  : dow C:/Users/xjh/WorkSpace/CoDesign/xgpio_example/build/xgpio_example.elf
+14:56:34 INFO  : con
+14:56:35 INFO  : Testing the connection for 127.0.0.1
+14:58:38 INFO  : disconnect
+15:00:21 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && lopper -O  . C:\Users\xjh\WorkSpace\CoDesign\platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx microblaze_0 C:\Users\xjh\WorkSpace\CoDesign\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:00:22 INFO  : Supported Library List generated.
+15:00:23 INFO  : Updating Examples in Driver C:\Users\xjh\WorkSpace\CoDesign\platform\microblaze_0\standalone_microblaze_0\bsp
+15:00:23 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\load_example.py -d C:\Users\xjh\WorkSpace\CoDesign\platform\microblaze_0\standalone_microblaze_0\bsp && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+15:00:23 INFO  : Updated Examples in Driver
